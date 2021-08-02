@@ -11,3 +11,26 @@
 function chunk(array, size) {}
 
 module.exports = chunk;
+
+// SOLUTION 1
+// function chunk(array, size) {
+//   let chunked = [];
+//   for (let i = 0; i < array.length; i += size) {
+//     chunked.push(array.slice(i, i + size));
+//   }
+//   return chunked;
+// }
+
+// SOLUTION 2
+// function chunk(array, size) {
+//   let chunked = [];
+//   for (let el of array) {
+//     const last = chunked[chunked.length - 1];
+//     if (!last || last.length === size) {
+//       chunked.push([el]);
+//     } else {
+//       last.push(el);
+//     }
+//   }
+//   return chunked;
+// }
