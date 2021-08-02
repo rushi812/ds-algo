@@ -1,3 +1,3 @@
-# AlgoCasts
+# Data Structures & Algorithm
 
-Companion repo to [The Coding Inteview Bootcamp: Algorithms + Data Structures](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/)
+Most commonly asked Data Structure and Algorithm interview questions.
