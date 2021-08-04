@@ -10,3 +10,30 @@
 function capitalize(str) {}
 
 module.exports = capitalize;
+
+// SOLUTION 1
+// function capitalize(str) {
+//   const strArr = str.split(" ");
+//   const words = [];
+
+//   for (let el of strArr) {
+//     let capitalizedEl = el[0].toUpperCase();
+//     let slicedEl = el.slice(1);
+//     words.push(`${capitalizedEl}${slicedEl}`);
+//   }
+//   return words.join(" ");
+// }
+
+// SOLUTION 2
+// function capitalize(str) {
+//   let result = str[0].toUpperCase();
+
+//   for (let i = 1; i < str.length; i++) {
+//     if (str[i - 1] === " ") {
+//       result += str[i].toUpperCase();
+//     } else {
+//       result += str[i];
+//     }
+//   }
+//   return result;
+// }
