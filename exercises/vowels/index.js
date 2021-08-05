@@ -10,3 +10,21 @@
 function vowels(str) {}
 
 module.exports = vowels;
+
+// SOLUTION 1
+// function vowels(str) {
+//   let vowels = ["a", "e", "i", "o", "u"];
+//   let total = 0;
+//   for (let char of str.toLowerCase()) {
+//     if (vowels.includes(char)) {
+//       total++;
+//     }
+//   }
+//   return total;
+// }
+
+// SOLUTION 2
+// function vowels(str) {
+//   const matches = str.match(/[aeiou]/gi);
+//   return matches ? matches.length : 0;
+// }
