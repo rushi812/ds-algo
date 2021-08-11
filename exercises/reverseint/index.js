@@ -12,7 +12,7 @@ function reverseInt(n) {}
 
 module.exports = reverseInt;
 
-// SOLUTION 1 => Just a word around not an optimal solution
+// SOLUTION 1 => Just a work around not an optimal solution
 // function reverseInt(n) {
 //   let tempInt = n.toString().split("");
 //   let shiftedEle;
